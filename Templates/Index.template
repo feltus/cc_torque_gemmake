@@ -1,0 +1,11 @@
+#!/bin/bash
+#PBS -N Index
+#PBS -l nodes=1,mem=8192mb,walltime=24:00:00
+#PBS -j oe
+
+cd /mnt/orangefs/PBS-GEM/Reference
+
+
+../Software/hisat2-2.1.0/hisat2-build -f ./*fa REF_PREFIX
+
+cp *fa REF_PREFIX.fa
