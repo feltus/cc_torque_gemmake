@@ -1,12 +1,6 @@
 #!/bin/bash
 
-if [ $# -lt 1 ]
-then
-	echo usage: 03-Map-reads.sh REF 1>&2
-	exit 1
-fi
-
-REF=$1
+REF=TAIR10
 
 BASEDIR=$(pwd)
 mkdir -p $BASEDIR/Alignment
