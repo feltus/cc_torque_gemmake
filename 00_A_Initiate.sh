@@ -5,7 +5,7 @@ BASEDIR=$(pwd)
 cp basedir.txt $BASEDIR/Templates 
 cp basedir.txt $BASEDIR/Logs/Pro
 
-cd /Software
+cd Software
 
 wget http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.39.zip
 wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-centos_linux64.tar.gz
