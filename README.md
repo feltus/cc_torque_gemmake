@@ -3,13 +3,13 @@ This workflow generates a gene expression matrix from a set of SRA RNAseq files 
 
 **From the cc_torque_gemmake directory, run these workflow steps.
 
-**Install software**
+**Install software** \
 ./00_A_Initiate.sh
 
-**Download the reference genome**
+**Download the reference genome** \
 ./00_B_DownloadReference.sh
 
-**Index the genome (Note you can change the indexed genome root name here)**
+**Index the genome (Note you can change the indexed genome root name here)** \
 ./00-C-IndexGenome.sh
 
 **Run the Workflow (Note: you can change the SRA files in SRAList.txt)**
