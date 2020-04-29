@@ -19,5 +19,5 @@ tar xf sratoolkit.current-centos_linux64.tar
 gunzip stringtie-2.1.2.Linux_x86_64.tar.gz
 tar xf stringtie-2.1.2.Linux_x86_64.tar 
 unzip hisat2-2.1.0-Linux_x86_64.zip
-bunzip2 https://github.com/samtools/samtools/releases/download/1.10/samtools-1.10.tar.bz2
+bunzip2 samtools-1.10.tar.bz2
 tar xf samtools-1.10.tar
