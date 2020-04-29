@@ -2,9 +2,7 @@
 #PBS -N GEM
 #PBS -l nodes=1,mem=14366mb,walltime=20:00:00
 
-cd /mnt/orangefs/PBS-GEM
-
-#module load python/2.7.6
+cd /mnt/orangefs/cc_torque_gemmake
 
 BASEDIR=$(cat basedir.txt)
 date=$(date +"20%y%m%d")
