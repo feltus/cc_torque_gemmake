@@ -8,7 +8,7 @@ cd /mnt/orangefs/cc_torque_gemmake
 BASEDIR=$(cat basedir.txt)
 cd $BASEDIR/FastQ-Trimmed
 
-java -jar $BASEDIR/Software/Trimmomatic-0.38/trimmomatic-0.38.jar \
+java -jar $BASEDIR/Software/Trimmomatic-0.39/trimmomatic-0.39.jar \
 PE -phred33 $BASEDIR/FastQ/SRA_1.fastq $BASEDIR/FastQ/SRA_2.fastq \
 ./SRA_1.forward_paired_trim.fastq ./SRA_1.forward_unpaired_trim.fastq \
 ./SRA_2.reverse_paired_trim.fastq ./SRA_2.reverse_unpaired_trim.fastq \
