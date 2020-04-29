@@ -4,7 +4,7 @@
 #PBS -j oe
 
 
-cd /mnt/orangefs/PBS-GEM
+cd /mnt/orangefs/cc_torque_gemmake
 
 BASEDIR=$(cat basedir.txt)
 mkdir Count/SRA.String
