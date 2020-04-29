@@ -2,7 +2,7 @@
 
 BASEDIR=$(pwd)
 mkdir -p $BASEDIR/FastQ
-cp $BASEDIR/Templates/basedir.txt $BASEDIR/FastQ
+#cp $BASEDIR/Templates/basedir.txt $BASEDIR/FastQ
 
 for i in `cat SRAList.txt` ; do cat $BASEDIR/Templates/FASTQ-DUMP.template | \
 sed s/SRAID/$i/g > $BASEDIR/FastQ/$i.FastQDump.pbs ; done
