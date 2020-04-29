@@ -12,7 +12,7 @@ This workflow generates a gene expression matrix from a set of SRA RNAseq files 
 **Index the genome (Note you can change the indexed genome root name here)** \
 ./00-C-IndexGenome.sh
 
-**Run the Workflow (Note: you can change the SRA files in SRAList.txt)**
+**Run the Workflow (Note: you can change the SRA files in SRAList.txt)** \
 ./01-Prepare-inputs.sh \
 ./02-Trim-reads.sh \
 ./03-Map-reads.sh \
