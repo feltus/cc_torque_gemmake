@@ -2,7 +2,7 @@
 #PBS -N SRAID.download
 #PBS -l nodes=1,mem=2048mb,walltime=20:00:00
 
-cd /mnt/orangefs/PBS-GEM
+cd /mnt/cc_torque_gemmake/PBS-GEM
 
 BASEDIR=$(cat basedir.txt)
 
