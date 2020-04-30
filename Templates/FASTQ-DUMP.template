@@ -8,4 +8,4 @@ BASEDIR=$(pwd)
 
 cd $BASEDIR/FastQ
 
-$BASEDIR/Software/sratoolkit.2.9.6-1-centos_linux64/bin/fastq-dump --split-files SRAID
+$BASEDIR/Software/sratoolkit.2.9.0-centos_linux64/bin/fastq-dump --split-files SRAID
