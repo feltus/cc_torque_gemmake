@@ -8,4 +8,5 @@ BASEDIR=$(pwd)
 
 cd $BASEDIR/FastQ
 
+$BASEDIR/Software/sratoolkit.2.10.5-centos_linux64/bin/vdb-config -i & read -t 3 
 $BASEDIR/Software/sratoolkit.2.10.5-centos_linux64/bin/fastq-dump --split-files SRAID
