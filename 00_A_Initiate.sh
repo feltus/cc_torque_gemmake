@@ -17,7 +17,7 @@ wget https://github.com/samtools/samtools/releases/download/1.10/samtools-1.10.t
 unzip Trimmomatic-0.39.zip
 tar xfz stringtie-2.1.2.Linux_x86_64.tar.gz
 unzip hisat2-2.1.0-Linux_x86_64.zip
-bunzip2 https://github.com/samtools/samtools/releases/download/1.10/samtools-1.10.tar.bz2
+bunzip2 samtools-1.10.tar.bz2
 tar xf samtools-1.10.tar
 
 cd samtools-1.10
