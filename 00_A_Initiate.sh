@@ -1,6 +1,5 @@
 #!/bin/bash
 
-chmod +x *.sh
 pwd > basedir.txt
 BASEDIR=$(pwd)
 cp basedir.txt $BASEDIR/Templates 
