@@ -22,3 +22,4 @@ tar xf samtools-1.10.tar
 
 cd samtools-1.10
 ./configure
+make
