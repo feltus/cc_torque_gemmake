@@ -1,6 +1,8 @@
 # cc_torque_gemmake
 This workflow generates a gene expression matrix from a set of SRA RNAseq files using the torque schedular on CloudyCluster.  Check out CloudyCluster at http://cloudycluster.com/.
 
+**CAUTION: This workflow will process sevral large RNAseq datasets.  This will cost cloud credits.  To test it, you can change the FASTQ download to limit the number of sequences to transfer fro NCBI.**
+
 **From the cc_torque_gemmake directory, run these workflow steps.
 
 **Install software** \
