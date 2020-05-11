@@ -5,6 +5,8 @@ This workflow generates a gene expression matrix from a set of SRA RNAseq files 
 
 **From the cc_torque_gemmake directory, run these workflow steps.
 
+NOTE: Make sure to make all script executable. (e.g. 'chmod +x *.sh')
+
 **Install software** \
 ./00_A_Initiate.sh
 
