@@ -5,7 +5,7 @@ This workflow generates a gene expression matrix from a set of SRA RNAseq files 
 
 **From the cc_torque_gemmake directory, run these workflow steps.
 
-NOTE: After cloning this repository, make sure to make all script executable. (e.g. 'chmod +x *.sh')
+NOTE: After cloning this repository, make sure to make all script executable (e.g. 'chmod +x *.sh').
 
 **Install software** \
 *./00_A_Initiate.sh* #This script will set up the directory environment and download/unpack open source genomics software.
@@ -18,7 +18,7 @@ NOTE: After cloning this repository, make sure to make all script executable. (e
 
 **Run the Workflow (Note: you can change the SRA files in SRAList.txt)** \
 *./01-Prepare-inputs.sh* \ #This script will download FASTQ files based on the SRA identifiers in the SRAList.txt file.\
-*./02-Trim-reads.sh* \ #This script will trim the FATSQ files with trimmomatic.\
-*./03-Map-reads.sh* \ #This script will map reads to the reference genome with hisat2.\
+*./02-Trim-reads.sh* \ #This script will trim the FASTQ files with trimmomatic.\
+*./03-Map-reads.sh* \ #This script will map reads to the indexed reference genome with hisat2.\
 *./04-Count-transcripts.sh* \ #This script will count mapped reads with stringtie.\
 *./05-GEM-parse.sh* \#This script will create an FPKM gene expression matrix (GEM) for each dataset that can be used for downstream workflows including differential gene expression analysis, gene co-expression network construction, machine learning classification, etc.
