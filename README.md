@@ -5,16 +5,16 @@ This workflow generates a gene expression matrix from a set of SRA RNAseq files 
 
 **From the cc_torque_gemmake directory, run these workflow steps.
 
-NOTE: Make sure to make all script executable. (e.g. 'chmod +x *.sh')
+NOTE: After cloning this repository, make sure to make all script executable. (e.g. 'chmod +x *.sh')
 
 **Install software** \
-./00_A_Initiate.sh
+./00_A_Initiate.sh # This script will set up the directory environment and download/unpack open source genomics software.
 
 **Download the reference genome** \
-./00_B_DownloadReference.sh
+./00_B_DownloadReference.sh #This script will download the reference genome (FASTA format) and gene feature coordinate files (GFF3 format). This script can be modified to download any reference genome but conatins the Arabidopsis thaliana plant genome by default.
 
 **Index the genome (Note you can change the indexed genome root name here)** \
-./00-C-IndexGenome.sh
+./00-C-IndexGenome.sh #This script will inde the reference genome for mapping with hisat2 software.
 
 **Run the Workflow (Note: you can change the SRA files in SRAList.txt)** \
 ./01-Prepare-inputs.sh \
