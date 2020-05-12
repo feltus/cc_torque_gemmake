@@ -11,7 +11,7 @@ NOTE: After cloning this repository, make sure to make all script executable (e.
 *./00_A_Initiate.sh* #This script will set up the directory environment and download/unpack open source genomics software.
 
 **Download the reference genome** \
-*./00_B_DownloadReference.sh* #This script will download the reference genome (FASTA format) and gene feature coordinate files (GFF3 format). This script can be modified to download any reference genome but conatins the Arabidopsis thaliana plant genome by default.
+*./00_B_DownloadReference.sh* #This script will download the reference genome (FASTA format) and gene feature coordinate files (GFF3 format). This script can be modified to download any reference genome but contains the *Arabidopsis thaliana* plant genome by default.
 
 **Index the genome (Note you can change the indexed genome root name here)** \
 *./00-C-IndexGenome.sh* #This script will index the reference genome for mapping with hisat2 software.
