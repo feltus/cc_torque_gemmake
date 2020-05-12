@@ -13,10 +13,10 @@ NOTE: After cloning this repository, make sure to make all script executable (e.
 **Download the reference genome** \
 *./00_B_DownloadReference.sh* #This script will download the reference genome (FASTA format) and gene feature coordinate files (GFF3 format). This script can be modified to download any reference genome but contains the *Arabidopsis thaliana* plant genome by default.
 
-**Index the genome (Note you can change the indexed genome root name here)** \
+**Index the genome (Note: You can change the indexed genome root name here)** \
 *./00-C-IndexGenome.sh* #This script will index the reference genome for mapping with hisat2 software.
 
-**Run the Workflow (Note: you can change the SRA files in SRAList.txt)** \
+**Run the Workflow (Note: You can change the SRA files to be downloaded in SRAList.txt)** \
 *./01-Prepare-inputs.sh* \ #This script will download FASTQ files based on the SRA identifiers in the SRAList.txt file.\
 *./02-Trim-reads.sh* \ #This script will trim the FASTQ files with trimmomatic.\
 *./03-Map-reads.sh* \ #This script will map reads to the indexed reference genome with hisat2.\
